@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /inc/*
+Disallow: /bat/*
+
+Host: ib-club.com

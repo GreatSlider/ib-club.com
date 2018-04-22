@@ -48,12 +48,9 @@
 
         <section class="well9">
             <div class="container">
-                <h3 class="text-center">contact form</h3>
+                <h3 class="text-center">Обратная связь</h3>
 
-                <p class="lead">Dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio.
-                    Morbi nunc
-                    odio, gravida at, <br>cursus nec lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra
-                    magna.</p>
+                <p class="lead">Чтобы связаться с нами, используйте пожалуйста данную форму. <br>Все поля, кроме телефона, являются обязательными для заполнения.<br></p>
 
                 <div class="row offs8">
                     <form class='mailform' method="post" action="bat/rd-mailform.php">
@@ -62,32 +59,32 @@
                                 <label class="col-xs-12" data-add-placeholder="">
                                     <input type="text"
                                            name="name"
-                                           placeholder="Your Name"
+                                           placeholder="Ваше Имя"
                                            data-constraints="@LettersOnly @NotEmpty"/>
                                 </label>
 
                                 <label class="col-md-6 col-sm-12 col-xs-12" data-add-placeholder="">
                                     <input type="text"
                                            name="email"
-                                           placeholder="Your Email"
+                                           placeholder="Ваш Email"
                                            data-constraints="@Email @NotEmpty"/>
                                 </label>
 
                                 <label  class="col-md-6 col-sm-12 col-xs-12" data-add-placeholder="">
                                     <input type="text"
                                            name="phone"
-                                           placeholder="Your Phone Number"
+                                           placeholder="Ваш номер телефона"
                                            data-constraints="@Phone"/>
                                 </label>
 
                                 <label data-add-placeholder="" class="textarea col-xs-12">
-                                  <textarea name="message" placeholder="Your Message"
+                                  <textarea name="message" placeholder="Ваше сообщение"
                                             data-constraints="@NotEmpty"></textarea>
                                 </label>
 
                             <div class="col-xs-12">
                                 <div class="mfControls">
-                                    <button class="btn btn-lg" type="submit">send message</button>
+                                    <button class="btn btn-lg" type="submit">Отправить</button>
                                 </div>
                             </div>
                         </fieldset>
@@ -96,44 +93,7 @@
             </div>
         </section>
 
-        <section class="bg02 well8">
-            <div class="container wow fadeInUp">
-                <div class="row">
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <address class="addr01 wow fadeInLeft" data-wow-delay="0s">
-                            <dl>
-                                <dt>
-                                <div class="circle"><span class="fa fa-map-marker"></span></div>
-                                </dt>
-                                <dd>New York 9870 St Vincent, Glasgow</dd>
-                            </dl>
-                        </address>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <address class="addr01 wow fadeInLeft" data-wow-delay=".2s">
-                            <dl>
-                                <dt>
-                                <div class="circle"><span class="fa fa-envelope"></span></div>
-                                </dt>
-                                <dd>
-                                    <a href="mailto:#">support@ib-club.com</a>
-                                </dd>
-                            </dl>
-                        </address>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <address class="addr01 wow fadeInLeft" data-wow-delay=".4s">
-                            <dl>
-                                <dt>
-                                <div class="circle"><span class="fa fa-phone"></span></div>
-                                </dt>
-                                <dd>Call Us:<br><span><a href="callto:#">+1 800 603 6035</a></span></dd>
-                            </dl>
-                        </address>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <?php require_once("/inc/contact.tpl");?>
 
     </main>
 

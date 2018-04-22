@@ -8,9 +8,7 @@
                 <div class="navbar-header">
                     <h1 class="navbar-brand">
                         <a data-type='rd-navbar-brand' href="./">IBC
-                            <small>INTERNATIONAL<br/>
-                                BUSINESS CLUB
-                            </small>
+                            <small>INTERNATIONAL<br/>BUSINESS CLUB</small>
                         </a>
                     </h1>
                 </div>

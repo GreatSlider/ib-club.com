@@ -7,8 +7,8 @@
         <li class='<?php if ($page=="index-1") echo "active";?>'>
             <a href="index-1.html">О клубе</a>
         </li>
-        <li class='<?php if ($page=="index-3") echo "active";?>'>
-            <a href="index-3.html">Обучение</a>
+        <li class='<?php if ($page=="learning") echo "active";?>'>
+            <a href="learning.html">Обучение</a>
         </li>
         <li class='<?php if ($page=="webinars") echo "active";?>'>
             <a href="webinars.html">Вебинары</a>

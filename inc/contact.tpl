@@ -20,7 +20,7 @@
                         <address class="addr01 wow fadeInLeft" data-wow-delay=".4s">
                             <dl>
                                 <dt><div class="circle"><span class="fa fa-phone"></span></div></dt>
-                                <dd><span><a href="callto:+78001112233">+7 800 111 2233</a></span></dd>
+                                <dd><span><a href="callto:+37121495995">+3 712-149-59-95</a></span></dd>
                             </dl>
                         </address>
                     </div>

@@ -36,7 +36,7 @@
   </head>
   <body>
   <div class="page">
-    <?php require_once("/inc/header.tpl");?>
+    <?php require_once("header.tpl");?>
 
   <!--========================================================
                             CONTENT
@@ -51,7 +51,7 @@
     </section>
   </main>
 
-  <?php require_once("/inc/footer.tpl");?>
+  <?php require_once("footer.tpl");?>
   </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

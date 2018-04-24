@@ -13,7 +13,7 @@
                     </h1>
                 </div>
 
-                <?php require_once("/inc/nav.tpl");?>
+                <?php require_once("nav.tpl");?>
 
                 <a class="search-form_toggle" href="#"></a>
 

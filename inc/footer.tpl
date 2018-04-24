@@ -10,8 +10,8 @@
                         <a href="./">IBC</a>
                     </h1>
                     <p class="copy">&#169; <span id="copyright-year"></span>
-                        <a href="./">International Business Club</a>
-                        <a href="privacy.html">Политика конфиденциальности</a>
+                        <a href="./">International Business Club</a> &mdash;
+                        <a href="privacy_ru.pdf" target="_blank">Условия участия</a>
                         <!-- {%FOOTER_LINK} -->
                     </p>
                     <!--<ul class="inline-list">

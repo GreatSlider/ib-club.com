@@ -4,9 +4,6 @@
         <li class='<?php if ($page=="index") echo "active"?>'>
             <a href="./">Главная</a>
         </li>
-        <li class='<?php if ($page=="index-1") echo "active";?>'>
-            <a href="index-1.html">О клубе</a>
-        </li>
         <li class='<?php if ($page=="learning") echo "active";?>'>
             <a href="learning.html">Обучение</a>
         </li>
@@ -14,10 +11,10 @@
             <a href="webinars.html">Вебинары</a>
         </li>
         <li class='<?php if ($page=="faq") echo "active";?>'>
-            <a href="faq.html">FAQ</a>
+            <a href="faq.html">ЧАВО</a>
         </li>
-        <li class='<?php if ($page=="index2") echo "active";?>'>
-            <a href="index2.html">Новости</a>
+        <li class='<?php if ($page=="news") echo "active";?>'>
+            <a href="news.html">Новости</a>
         </li>
         <li class='<?php if ($page=="contacts") echo "active";?>'>
             <a href="contacts.html">Контакты</a>

@@ -80,7 +80,7 @@ else{
 <!DOCTYPE HTML>
 <html lang="en-US" class="search-frame">
 <head>
-	<title>Search results</title>
+	<title>Результаты поиска</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link rel="stylesheet" href="../css/search.css">
 	<!--[if lt IE 9]>

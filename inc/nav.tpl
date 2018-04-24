@@ -4,6 +4,9 @@
         <li class='<?php if ($page=="index") echo "active"?>'>
             <a href="./">Главная</a>
         </li>
+        <li class='<?php if ($page=="partners") echo "active";?>'>
+            <a href="partners.html">Партнёрам</a>
+        </li>
         <li class='<?php if ($page=="learning") echo "active";?>'>
             <a href="learning.html">Обучение</a>
         </li>

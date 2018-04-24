@@ -2371,6 +2371,33 @@ ol li a {
 .marked-list_mod li a {
   color: #ffffff;
 }
+
+/*================    Marked list 2    =================*/
+.marked-list2 li {
+  padding-left: 28px;
+  position: relative;
+  line-height: 20px;
+}
+.marked-list2 li:before {
+  content: "\f144";
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'FontAwesome';
+  font-size: 13px;
+  color: #0aab8a;
+}
+.marked-list2 a {
+  color: #757474;
+}
+.marked-list2 a:hover {
+  text-decoration: none;
+  color: #0aab8a;
+}
+.marked-list2_mod li a {
+  color: #ffffff;
+}
+
 /*================    Term list     =================*/
 .terms {
   text-align: center;
@@ -7672,4 +7699,11 @@ button.close {
 }
 .hidden {
   display: none !important;
+}
+a.morenomore {
+  font-weight: bolder;
+  cursor: pointer;
+}
+span.morenomore{
+  display:none;
 }

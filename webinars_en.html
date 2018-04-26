@@ -1,0 +1,84 @@
+<?php require_once(getenv('DOCUMENT_ROOT')."/defines.cfg"); ?>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Вебинары</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Links -->
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/google-map.css">
+
+
+    <!--JS-->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+
+
+
+    <!--[if lt IE 9]>
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+        </a>
+    </div>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <script src='js/device.min.js'></script>
+</head>
+<body>
+<div class="page">
+    <?php require_once("header_en.tpl");?>
+
+    <!--========================================================
+                              CONTENT
+    =========================================================-->
+
+    <main>
+
+        <section class="parallax well9 white text-center" data-url="images/parallax03.jpg" data-mobile="true hidden">
+            <div class="container">
+                <h3 class="white">Teaching Webinars</h3>
+
+                <h5 class="white">Professional specialists of the IBC Club regularly conduct training events <br /> in the form of free webinars with free access for all comers.</h5>
+
+                <p class="offs7 br-sm-off">
+                    The task of such events is the dissemination of information about the products and services of the Club.<br />
+                    Free training webinars are held in a convenient (for most potential listeners) time,<br />
+                    which allows a wide range of Club members with all the opportunities that are available in our Club.<br />
+                    For Club members, training webinars are an excellent opportunity to invite future Club members<br />
+                    to get acquainted with useful information without any effort on your part.
+                </p>
+                <a class="btn btn-lg" href="#">Link for participation in the webinar</a>
+            </div>
+        </section>
+
+
+        <?php require_once("contact_en.tpl");?>
+
+    </main>
+
+    <?php require_once("footer_en.tpl");?>
+
+
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/tm-scripts.js"></script>
+<!-- </script> -->
+
+
+</body>
+</html>

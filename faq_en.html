@@ -1,0 +1,125 @@
+<?php require_once(getenv('DOCUMENT_ROOT')."/defines.cfg");?>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>ЧАВО</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Links -->
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/google-map.css">
+
+
+    <!--JS-->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+
+
+
+    <!--[if lt IE 9]>
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+        </a>
+    </div>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <script src='js/device.min.js'></script>
+</head>
+<body>
+<div class="page">
+    <?php require_once("header_en.tpl");?>
+
+    <!--========================================================
+                              CONTENT
+    =========================================================-->
+
+    <main>
+
+        <section class="well9 center991">
+            <div class="container">
+                <h3 class="text-center">Terms and Definitions</h3>
+                <h5 class="black">What is Cryptocurrency?</h5>
+                <p class="txt2 offs7">It is digital money that is created by certain algorithms using cryptography (encryption). The word «cryptos» in Greek means «secret», hence the name of digital money. Encryption methods allow the cryptocurrency to be protected from fraud, while having such a characteristic as auditability, i.e. transactions with the cryptocurrency are publicly available for verification. Cryptocurrency for the most part decentralized, i.e. does not depend on any single computer. The cryptocurrency has a creator (a programmer, a team, a project on the basis of which the cryptocurrency is released), but there is no owner, an owner who could take everything away from everyone, or force it to devalue, as well prohibit to use. By the way, all this, if you think about it, you can do with the usual money - and from time to time it happens.</p>
+                <h5 class="black">What is a Bitcoin?</h5>
+                <p class="txt2 offs7">A Bitcoin (the abbreviation BTC) is a form of cryptocurrency, the ancestor of all altcoins (alternative coins). The word «Bitcoin» is derived from two words, «bit» (the smallest unit of computer information in the binary system of calculation) and «coin», i.e. it is a digital coin.<br />Bitcoins are created (calculated) by computers according to a given algorithm, after the completion of this work about 21 million bitcoins will be created, after which their creation will be terminated under the terms of the algorithm.<br />One of the factors in the growth of Bitcoin value is the constant number of coins with a constant increase in the population of the planet. The more people there are, the fewer coins each person will have, potentially making Bitcoin a great way to save money.</p>
+                <h5 class="black">What is a Satoshi?</h5>
+                <p class="txt2 offs7">Satoshi is a small, indivisible particle of bitcoin cryptocurrency. The name comes from the name of the creator (or possible pseudonym) of the Bitcoin Protocol - Satoshi Nakamoto. One Bitcoin contains one hundred million Satoshi, or in other words, 1 BTC is equal to 100 000 Satoshi, that is 0.00000001 part of a bitcoin.</p>
+                <h5 class="black">What is an Altcoin?</h5>
+                <p class="txt2 offs7">An Altcoin is alternative cryptocurrency. After the Bitcoin had reached its popularity, the new «coins» began to crumble like from a horn of plenty, a few names was created every day Most of them quit the game as quietly and quickly as they joined it, but some gained popularity and demand. For example, Litecoin, Dogecoin, etc. remain well-known and common crypto-coins, although their cost is many times less than the cost of Bitcoin. Altcoins for the most part make it possible to have more productive trade on the stock exchange, but unlike Bitcoin, they are less stable, and therefore trade on the viola more risky business.
+</p>
+                <h5 class="black">What is a Fork?</h5>
+                <p class="txt2 offs7">A Fork is cryptocurrency that appears from under the main currency and is a partial analogue of the predecessor, for example, Bitcoin - Bitcoin Cash, Bitcoin Gold and so on.</p>
+                <h5 class="black">What is a Hard Fork?</h5>
+                <p class="txt2 offs7">A Hard Fork is hard update of the Protocol, which inevitably leads to the branching of the chain of blocks of the cryptosystem, in the result of which only the updated part of the chain remains and is recognized, and the rest is either eliminated or becomes the basis of the new payment system.</p>
+                <h5 class="black">What is a Token?</h5>
+                <p class="txt2 offs7">Token is a kind of coupon, which is issued by any project or payment system for collecting investments. Tokens can be called the internal cryptocurrency of the company. In fact, they do not cost anything, but when they are backed up with money and if the company displays its tokens on the exchange, then such tokens can become a full-fledged cryptocurrency.</p>
+                <h5 class="black">What is a Bitcoin address?</h5>
+                <p class="txt2 offs7">A Bitcoin address is a unique combination of capital and small Latin letters, as well as numbers, lasting from 34 symbols and less. Most bitcoin addresses consist of 34 or 33 symbols, but can contain less than 30 symbols. This is explained by the presence of zeros at the beginning of the address, since zeros are omitted, then there is a "short" address. Each Bitcoin address you create is unique and is recorded in the blockchain, so it is impossible to create two identical Bitcoin addresses. If you use a Bitcoin wallet on your computer, it allows you to generate Bitcoin addresses, usually one address is created by default, but you are free to create any number of new addresses by clicking the appropriate «create new wallet» button.</p>
+                <h5 class="black">What is a Bitcoin wallet?</h5>
+                <p class="txt2 offs7">A Bitcoin wallet is a software or a website (read more) installed on a computer or smartphone that allows you to store keys and perform operations of sending, storing and receiving Bitcoins. In fact, the wallet does not store Bitcoins, it only contains keys to access some Bitcoins in the network. However, the loss of the wallet leads to the loss of keys, which makes Bitcoinы «tied» to these keys inaccessible.</p>
+                <h5 class="black">What is a Blockchain?</h5>
+                <p class="txt2 offs7">A Blockchain is literally «a chain of blocks» This is a key component of a Bitcoin. All transactions in Bitcoins, ever committed, are recorded in the «blockchain», in other words, in an « open book». All bitcoins mined by miners are part of the blockchain. As a result, the blockchain grows, increases in volume, but so far, the size is not so large as not to fit on the hard drive of one computer. That is why one of the variants of cryptocurrency storage is storage on the local computer.</p>
+                <h5 class="black">What is mining?</h5>
+                <p class="txt2 offs7">Mining is the use of a computer, a farm, ASIC for mining cryptocurrency. In fact, the computer consumes electricity, and uses its computing power to find the desired code sequence, i.e. solves mathematical problems - selects the code which is a password to open the next chain of goods.</p>
+                <h5 class="black">What is Transaction Confirmation?</h5>
+                <p class="txt2 offs7">Transaction confirmation is a procedure performed automatically by the Bitcoin network. When sending Bitcoins, a number of randomly selected computers confirm the authenticity of the transaction, after receiving several confirmations, the transaction is considered valid and no one can ever claim that such a transaction does not exist. There are two types of mining: cloud mining and ordinary mining. All Bitcoin transactions are stored permanently in an «open book» which is called a «public ledger» in English. Although Bitcoin is considered an anonymous network, data on the involved wallets, amounts, dates are recorded in the «open book» and are available for viewing by anyone at any time. The «open book» can be downloaded at any time to your computer and have at hand a record of all transactions in the Bitcoin network, ever committed.</p>
+                <h5 class="black">Who's a miner?</h5>
+                <p class="txt2 offs7">A miner is a person engaged in the extraction of cryptocurrency on everything that is able to produce the necessary computational operations. For this purpose, both personal computers and laptops, and smartphones are suitable, but it must be said that for 2018 all this is ineffective and hardly covers the cost of electricity. The profitability of mining cryptocurrencies at home tends to the negative, so advanced miners became farmers and mine cryptocurrency by using specialized equipment, farms and ASIC.</p>
+                <h5 class="black">What is ASIC?</h5>
+                <p class="txt2 offs7">ASIC (abbreviation for application-specific integrated circuit) is an integrated circuit of a special purpose. This means that the ASIC can be used for a specific task or for a narrow range of tasks. With regard to the extraction of cryptocurrency, ASIC is «sharpened» to work with a set of algorithms, which increases their efficiency in comparison with personal computers, but only in a narrow field - mining cryptocurrency. ASIC can be "sharpened" (designed) for the production of a certain type of cryptocurrency(s).</p>
+                <h5 class="black">What is a Farm?</h5>
+                <p class="txt2 offs7">A farm is an equipment designed for mining cryptocurrency. Farms can look completely different. A typical system unit of a personal computer, four video cards in a rack and a hangar with device racks are all farms./p>
+                <h5 class="black">What is ICO?</h5>
+                <p class="txt2 offs7">ICO is the initial placement of tokens by any project. As a rule, ICO tokens are placed at the time of the official launch of the project. With the help of such an internal cryptocurrency, the company attracts investments for its further development. Such cryptocurrency (tokens/coupons) may participate in the exchange trading in the future, be used to pay for services within the project, as well as make a profit as dividends to the holders of such tokens.</p>
+            </div>
+        </section>
+
+        <section class="bg02 well9 white center991">
+            <div class="container wow fadeIn">
+                <h3 class="text-center white">ANSWERS TO FREQUENTLY ASKED QUESTIONS</h3>
+                <h5 class="white">Registration</h5>
+                <p class="txt2 offs7">Register on the website using the sponsor's referral link. A sponsor is a person who will represent you in the company and introduce you to the business, will support, teach, prompt, help.</p>
+                <h5 class="white">How long has IBClub been existing?</h5>
+                <p class="txt2 offs7">The IBClub itself and a large staff of specialists work almost since the appearance of the cryptocurrency.</p>
+                <h5 class="white">In what language should I fill in the registration form?</h5>
+                <p class="txt2 offs7">In any convenient for you. English or Russian is preferred.</p>
+                <h5 class="white">Where and how can I withdraw funds?</h5>
+                <p class="txt2 offs7">To a Bitcoin wallet.</p>
+                <h5 class="white">In what currency transactions with money are made?</h5>
+                <p class="txt2 offs7">Input and output is made in Bitcoin. We don't work with Fiat money.</p>
+                <h5 class="white">What is the size of the deposit at registration?</h5>
+                <p class="txt2 offs7">The minimum amount that you must deposit at registration is $200 (at the rate of Bitcoin).</p>
+                <h5 class="white">Is there an activation fee in the Club?</h5>
+                <p class="txt2 offs7">Yes, the Club has an activation fee which is $50 (at the rate of Bitcoin).</p>
+                <h5 class="white">What is an investment crypto portfolio?</h5>
+                <p class="txt2 offs7">A crypto portfolio is 100% secured by leading crypto assets. Investment strategy for 6 months. This means that the portfolio will include the most reliable blockchain assets with growth potential. The account of the portfolio in Bitcoin. The real-time status of the portfolio can be monitored in your personal account: instant conversion / purchase / sale / withdrawal to Bitcoin.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <?php require_once("footer.tpl");?>
+
+
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/tm-scripts.js"></script>
+<!-- </script> -->
+
+
+</body>
+</html>

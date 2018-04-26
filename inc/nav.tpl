@@ -22,6 +22,9 @@
         <li class='<?php if ($page=="contacts") echo "active";?>'>
             <a href="contacts.html">Контакты</a>
         </li>
+        <li class='<?php if ($page=="english") echo "active";?>'>
+            <a href="/index_en.html">English</a>
+        </li>
     </ul>
 
 </nav>

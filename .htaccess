@@ -2,7 +2,7 @@ Options All -ExecCGI -Indexes -Includes +FollowSymLinks
 ServerSignature Off
 RemoveHandler .html .htm .cfg .tpl
 AddType application/x-httpd-php .php .php5 .php6 .htm .html .phtml .shtml .cfg .tpl
-DirectoryIndex index.html index.php
+DirectoryIndex index.html
 AddDefaultCharset utf-8
 ErrorDocument 404 /404.htm
 
@@ -12,9 +12,9 @@ php_flag session.use_only_cookies on
 php_flag session.use_strict_mode on
 php_flag session.cookie_httponly on
 php_flag session.cookie_secure off
-php_value session.gc_maxlifetime 600
+php_value session.gc_maxlifetime 60
 php_value session.cache_limiter nocache
-php_value session.session_name LBCONE
+php_value session.session_name IBCLUBCOM
 php_flag short_open_tag on
 php_flag asp_tags on
 php_flag post_max_size 2M

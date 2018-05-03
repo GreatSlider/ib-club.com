@@ -14,7 +14,7 @@
                 </div>
 
                 <?php require_once("nav_en.tpl");?>
-                <a class="btn btn-info btn-enter" href="#">Sign In</a>
+                <a class="btn btn-info btn-enter" href="#">Become a partner</a>
                 <a class="search-form_toggle" href="#"></a>
 
             </div>

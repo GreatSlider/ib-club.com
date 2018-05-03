@@ -4497,6 +4497,7 @@ fieldset[disabled] .btn-success:focus.active {
   color: #ffffff;
   background-color: #4acad5;
   border-color: #4acad5;
+  float:right;
 }
 .btn-info:active,
 .btn-info.active,
